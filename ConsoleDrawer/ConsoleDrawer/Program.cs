@@ -64,6 +64,8 @@ namespace ConsoleDrawer
             return consoleColors;
         }
 
+        /// <summary>Draws the image.</summary>
+        /// <param name="colors">The colors.</param>
         static void DrawImage(ConsoleColor[,] colors)
         {
             for (int y = 0; y < colors.GetLength(0); y++)
