@@ -15,9 +15,13 @@ namespace ConsoleDrawer
         {
             ConsoleColor[,] firstImageColors = GetColors(@"..\..\images\testImage1.png");
             ConsoleColor[,] secondImageColors = GetColors(@"..\..\images\testImage2.png");
+            ConsoleColor[,] thirdImageColors = GetColors(@"..\..\images\testImage3.png");
+            ConsoleColor[,] fourthImageColors = GetColors(@"..\..\images\testImage4.png");
 
             DrawImage(firstImageColors);
             DrawImage(secondImageColors);
+            DrawImage(thirdImageColors);
+            DrawImage(fourthImageColors);
         }
 
         /// <summary>Gets the colors.</summary>
